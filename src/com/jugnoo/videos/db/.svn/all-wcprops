@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/db
+END
+DBConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/db/DBConnectionManager.java
+END
+StatsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/db/StatsDao.java
+END
+HistoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/db/HistoryDao.java
+END
+TaskDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/db/TaskDao.java
+END

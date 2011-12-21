@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data
+END
+DatabaseInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data/DatabaseInfo.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data/Task.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data/Status.java
+END
+VideoAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data/VideoAccess.java
+END
+Job.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data/Job.java
+END
+Stats.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Jugnoo/!svn/ver/1362/PublishVideo/trunk/src/com/jugnoo/videos/data/Stats.java
+END

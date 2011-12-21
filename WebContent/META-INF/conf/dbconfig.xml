@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbconfig>
+	<!-- 1: oracle database 2:sqlserver database 3:mysql database -->
+    <type>3</type>
+	<url>jdbc:mysql://192.168.1.196:3306/test</url>
+	<user>root</user>
+	<password>root</password>
+	<poolsize>5</poolsize>
+	<retrytime>30</retrytime>
+</dbconfig>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd">
+
+	<listener>
+		<listener-class>com.jugnoo.videos.initwork.InitMgr</listener-class>
+	</listener>
+
+	<context-param>
+		<param-name>Download-URL</param-name>
+		<param-value>http://205.189.47.205:8080/interface/Download</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Youtube_Consumer_Key</param-name>
+		<param-value>me1.jugnoo.com</param-value>
+	</context-param>
+	<context-param>
+		<param-name>Youtube_Consumer_Secret</param-name>
+		<param-value>qmFGVTbSJd1cWBIlilxjKh4I</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Vimeo_Consumer_Key</param-name>
+		<param-value>1c168532b90b2fe18fec45640e78c62b</param-value>
+	</context-param>
+	<context-param>
+		<param-name>Vimeo_Consumer_Secret</param-name>
+		<param-value>c5c3d0c8981e180</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Youtube_Scheduler</param-name>
+		<param-value>0 0 * * * ?</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Vimeo_Scheduler</param-name>
+		<param-value>0 0 * * * ?</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Scheduler-Jobs</param-name>
+		<param-value>Youtube;Vimeo</param-value>
+	</context-param>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- Youtube publish -->
+	<servlet>
+		<servlet-name>YoutubePublishServlet</servlet-name>
+		<servlet-class>com.jugnoo.videos.servlet.YoutubePublishServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>YoutubePublishServlet</servlet-name>
+		<url-pattern>/PublishFile-Youtube</url-pattern>
+	</servlet-mapping>
+
+	<!-- Youtube query -->
+	<servlet>
+		<servlet-name>YoutubeQueryServlet</servlet-name>
+		<servlet-class>com.jugnoo.videos.servlet.YoutubeQueryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>YoutubeQueryServlet</servlet-name>
+		<url-pattern>/QueryInfo-Youtube</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>VimeoQueryServlet</servlet-name>
+		<servlet-class>com.jugnoo.videos.servlet.VimeoQueryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VimeoQueryServlet</servlet-name>
+		<url-pattern>/QueryInfo-Vimeo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>VimeoPublishServlet</servlet-name>
+		<servlet-class>com.jugnoo.videos.servlet.VimeoPublishServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VimeoPublishServlet</servlet-name>
+		<url-pattern>/PublishFile-Vimeo</url-pattern>
+	</servlet-mapping>
+
+</web-app>
